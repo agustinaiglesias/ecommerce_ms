@@ -1,0 +1,119 @@
+@font-face {
+    font-family:coolvetica;
+    src: url(../coolvetica\ rg.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/1805-color-pastel.jpg);
+    height: 100vh;
+    /*overflow: hidden;*/
+  }
+
+*{
+    font-family: "Poppins", sans-serif;
+  font-size: small;
+  color: #545454;
+}
+
+
+.conteinerC{
+    align-items: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+.cartLeft{
+    width: 550px;
+    height: fit-content;
+    float: left;
+    margin: 30px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 50px;
+
+
+}
+
+.cartRight{
+    width: 550px;
+    height: 570px;
+    float: left;
+    margin: 30px;
+    margin-top: 0;
+}
+
+img{ 
+    width: 150px;
+}
+
+
+
+.detailsContainer{
+    margin-top: 40px;
+    margin-left: 15px;
+    height: 560px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+
+
+/*radio buttons style*/
+
+
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+label span{
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 15px 7px 7px;
+    border-radius: 31px;
+    transition: .25s ease;
+}
+
+label span:hover,
+input[type="radio"]:checked + span{
+    background-color: #e9deee;
+}
+
+label span:before{
+    content: "";
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 7px;
+    transition: .25s ease;
+    box-shadow:  inset 0 0 0 2px #864283;
+}
+
+input[type="radio"]:checked + span:before{
+    box-shadow: inset 0 0 0 10px #864283;
+}
+
+
+h1{
+    font-family:coolvetica;
+    color: white;
+    width: fit-content;
+    display: flex;
+    float: right;
+}
+
+
+

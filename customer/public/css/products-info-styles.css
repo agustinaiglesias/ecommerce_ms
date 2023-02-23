@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  color: #545454;
+
+}
+
+@font-face {
+    font-family:coolvetica;
+    src: url(../coolvetica\ rg.otf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/1805-color-pastel.jpg);
+    /*height: 100vh;*/
+    /*overflow: hidden;*/
+  }
+
+.containerA {
+    /*width: 1800px;
+    margin: 0 auto;*/
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.left-at{
+    width: 800px;
+    height: 670px;
+    float: left;
+    margin: 10px;
+    margin-top: 0;
+
+}
+
+.at-container{
+    width: 500px;
+    height: fit-content;
+    float: left;
+    margin: 10px;
+    align-items: center;
+    margin-top: 0;
+
+
+
+}
+
+.right-at{
+    width: 550px;
+    height: 670px;
+    float: left;
+    margin: 30px;
+    margin-top: 0;
+
+}
+
+
+.atributosProd{
+    background-color: white;
+    width: 550px;
+    border-radius: 20px;
+    padding: 7px;
+    color: 545454;
+    text-align: center;
+    
+}
+
+.agregarCarrito{
+    background-color: white;
+    width: 170px;
+    border-radius: 20px;
+    padding: 7px;
+    color: 545454;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 80px;
+    cursor: pointer;   
+}
+
+.comentarios-container{
+    margin-top: 265px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.user{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.comentario{
+    color: 545454; 
+    margin-left: 5px;
+
+}
+
+.comentar{
+    margin-left: 15px;
+    margin-top: 5px ;
+
+
+}
+
+.comentar input{
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+.comentar input[type="text"]{
+    background: #fff;
+    width: 360px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+
+}
+.comentar input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0 ;
+    width: 170px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #545454 ;
+    color: #fff;
+}
+
+.comentar input[type="submit"]:hover{
+    background: gray;}
+
+.imgP-container{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.foto{
+    margin: 2px;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+
+    color: #fff;
+    float: left;
+    margin-bottom: 20px;
+}
+
+div.foto img{
+    width: 170px;
+    padding: 7px;
+    height: auto;
+}
+
+.checked {
+    color: orange;
+  }
+
+ h1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:coolvetica ;
+    font-size: x-large;
+    color: #545454;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.logo{
+    width: 100px;
+    height: fit-content;
+    position: relative;
+  }
+  
+  img#logo{
+    height: 130px;
+    margin-left: 30px;
+  
+  }
+
+#recomendados {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    font-family:coolvetica;
+
+}
+
+#recomendados .card{
+    width: 290px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    align-items: center;
+
+
+}
+
+#recomendados .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+#recomendados .card img{
+    width: 220px;
+    height: 130px;
+    margin-top: 15px;
+}
+
+
+#recomendados .card h4{
+    font-weight: 400;
+    font-family:coolvetica;
+}
+
+#recomendados .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+#galeria{
+    width: 600px;
+    margin-left: 85px;
+} 
+
+h3{
+    margin-top: 20px ;
+    margin-left: 85px;
+    font-family:coolvetica;
+}
+
